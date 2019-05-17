@@ -45,7 +45,7 @@ class App extends Component {
     console.log(date);
     if (date && store && amount) {
       axios
-        .post(keys.db, {
+        .post("/api/transactions", {
           date,
           store,
           amount

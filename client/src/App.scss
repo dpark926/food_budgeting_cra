@@ -1,0 +1,108 @@
+@import "./variables";
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 0.25);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 0.25);
+  box-shadow: 0px 0px 10px 5px rgba(204, 204, 204, 0.25);
+}
+
+.lighter {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+.black {
+  color: $black;
+}
+
+.white {
+  color: $white;
+}
+
+.green {
+  color: $green;
+}
+
+.red {
+  color: $red;
+}
+
+.pink {
+  color: $pink;
+}
+
+.gray {
+  color: $gray;
+}
+
+.dark-gray {
+  color: $dark-gray;
+}
+
+.light-gray {
+  color: $light-gray;
+}
+
+.bg-white {
+  background: $white;
+}
+
+.bg-red {
+  background: $red;
+}
+
+.bg-pink {
+  background: $pink;
+}
+
+.bg-blue {
+  background: $blue;
+}
+
+.bg-green {
+  background: $green;
+}
+
+.bg-gray {
+  background: $gray;
+}
+
+.bg-dark-gray {
+  background: $dark-gray;
+}
+
+.bg-light-gray {
+  background: $light-gray;
+}
+
+.border-divider {
+  border: 1px solid $light-gray;
+}
